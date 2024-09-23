@@ -1,5 +1,10 @@
 // UC5: Calculating Wages for a Month (Assume 20 Working Days)
 const WORKING_DAYS_PER_MONTH = 20;
+const IS_FULL_TIME = 1;
+const IS_PART_TIME = 2;
+const FULL_TIME_HOURS = 8;
+const PART_TIME_HOURS = 4;
+const WAGE_PER_HOUR = 20;
 
 function calculateMonthlyWage() {
     let totalWage = 0;
