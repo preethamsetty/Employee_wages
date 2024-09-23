@@ -1,6 +1,11 @@
 // UC6: Calculate Wages till a Condition of Total Working Hours or Days is Reached
 const MAX_WORKING_DAYS = 20;
 const MAX_WORKING_HOURS = 100;
+const IS_FULL_TIME = 1;
+const IS_PART_TIME = 2;
+const FULL_TIME_HOURS = 8;
+const PART_TIME_HOURS = 4;
+const WAGE_PER_HOUR = 20;
 
 function calculateWageUntilCondition() {
     let totalWage = 0;
