@@ -1,4 +1,9 @@
 // UC7: Refactor the Code to Use Class Method and Class Variables
+const IS_FULL_TIME = 1;
+const IS_PART_TIME = 2;
+const FULL_TIME_HOURS = 8;
+const PART_TIME_HOURS = 4;
+const WAGE_PER_HOUR = 20;
 
 class EmployeeWage {
     constructor() {
